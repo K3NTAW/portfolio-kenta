@@ -13,7 +13,7 @@
             aria-label="to top"
             @click="$scrollTo(0), $nuxt.$emit('toggle-menu', false)"
         >
-            <span aria-hidden="true">FI</span>
+            <span aria-hidden="true">KW</span>
         </button>
 
         <div ref="navSections" class="nav__sections">
@@ -80,8 +80,9 @@ export default {
         isShowingCurrentSection: false,
         sections: [
             { label: 'Home', scrollTo: 0 },
-            { label: 'Work', scrollTo: '.works' },
-            { label: 'About', scrollTo: '.about' },
+            { label: 'Personal Projects', scrollTo: '.works' },
+            { label: 'Swisscom Projects', scrollTo: '.projects' },
+            { label: 'About me', scrollTo: '.about' },
             { label: 'Contact', scrollTo: '.contact' }
         ]
     }),

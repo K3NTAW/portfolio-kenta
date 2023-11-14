@@ -6,7 +6,7 @@ export default {
 
     head: {
         htmlAttrs: { lang: 'en', dir: 'ltr' },
-        title: 'Farish Irfan | Portfolio',
+        title: 'Kenta Waibel | Portfolio',
         meta: [
             { charset: 'utf8' },
             {

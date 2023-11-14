@@ -3,8 +3,8 @@
         <div ref="footerWrapper" class="footer__wrapper" data-scroll-sticky>
             <div ref="footerContent" class="footer__content">
                 <p ref="footerContentTitle" class="footer__content__title">
-                    Farish <br />
-                    <span class="serif">Irfan</span>
+                    Kenta <br />
+                    <span class="serif">Waibel</span>
                 </p>
                 <ul class="footer__content__social">
                     <li
@@ -23,11 +23,6 @@
                         </V-Footer-Social-Link>
                     </li>
                 </ul>
-
-                <p class="footer__content__copyright">
-                    Copyright ©{{ getCurrentYear() }} FI
-                </p>
-                <p class="footer__content__note">Made with ❤ from Malaysia!</p>
             </div>
             <div
                 class="footer__arrow__wrapper"
@@ -50,20 +45,20 @@ export default {
     data: () => ({
         socialLinks: [
             {
-                label: 'linktree',
-                href: 'https://linktr.ee/fxrysh'
-            },
-            {
                 label: 'github',
-                href: 'https://github.com/fxrysh'
+                href: 'https://github.com/k3ntaw'
             },
             {
-                label: 'twitter',
-                href: 'https://twitter.com/fxrysh'
+                label: 'github_EDU',
+                href: 'https://github.com/orgs/kenta-bbw'
             },
             {
                 label: 'email',
-                href: 'mailto:hello@farish.is-a.dev'
+                href: 'mailto:kenta.waibel@gmail.com'
+            },
+            {
+                label: 'CV ⬇ ',
+                href: 'https://www.figma.com/proto/RwTeyKaoS9irw2XJ0kFOQg/Resume-(Community)?page-id=0%3A1&node-id=102-726&mode=design&t=PSfeenRQ0iKrhjEy-1'
             }
         ]
     }),

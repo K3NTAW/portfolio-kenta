@@ -4,12 +4,14 @@
 
         <div ref="headerContainer" class="header__container">
             <h1 class="header__container__title">
-                <span class="sr-only">Farish Irfan</span>
+                <span class="sr-only">Kenta Waibel</span>
                 <span class="line" aria-hidden="true">
-                    <span class="line__content">Farish</span>
+                    <span class="line__content">Kenta</span>
                 </span>
                 <span class="line" aria-hidden="true">
-                    <span class="line__content ml-responsive serif">Irfan</span>
+                    <span class="line__content ml-responsive serif">
+                        Waibel
+                    </span>
                 </span>
             </h1>
 
@@ -47,7 +49,7 @@ export default {
                 { label: 'About', action: () => this.$scrollTo('.about') },
                 { label: 'Contact', action: () => this.$scrollTo('.contact') }
             ],
-            subTitleText: 'Software Developer'
+            subTitleText: 'Developer Apprentice'
         };
     },
     mounted() {

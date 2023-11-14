@@ -5,7 +5,7 @@
         aria-label="about section"
         data-scroll-section
     >
-        <V-H2 aria-label="about section heading">About</V-H2>
+        <V-H2 aria-label="about section heading">About me</V-H2>
 
         <p ref="aboutText" class="about__text">
             <span class="sr-only">{{ about.text }}</span>
@@ -51,11 +51,10 @@ import JS_SVG from '~/images/logo/JavaScript.svg?inline';
 import TS_SVG from '~/images/logo/TypeScript.svg?inline';
 import PY_SVG from '~/images/logo/Python.svg?inline';
 import HTML_SVG from '~/images/logo/HTML.svg?inline';
-import RS_SVG from '~/images/logo/Rust.svg?inline';
 import CSS_SVG from '~/images/logo/CSS.svg?inline';
 
 export default {
-    components: { HTML_SVG, CSS_SVG, JS_SVG, TS_SVG, PY_SVG, RS_SVG },
+    components: { HTML_SVG, CSS_SVG, JS_SVG, TS_SVG, PY_SVG },
     data: () => ({
         about: null,
         icons: [
@@ -69,10 +68,6 @@ export default {
             },
             {
                 svg: 'HTML_SVG'
-            },
-            {
-                svg: 'RS_SVG',
-                link: 'https://rust-lang.org/'
             },
             {
                 svg: 'CSS_SVG'

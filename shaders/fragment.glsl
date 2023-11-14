@@ -94,12 +94,12 @@ void main(void) {
     }
 
     vec3 color1 = vec3(0.0, 0.0, 0.0);
-    vec3 color2 = vec3(255.0, 230.0, 237.0);
+    vec3 color2 = vec3(138.0, 43.0, 226.0);   // Blue Violet
+    vec3 color3 = vec3(0.0, 0.0, 128.0); // Dark blue
 
     // LIGHT_GREEN
     // vec3 color3 = vec3(230.0, 255.0, 233.0);
     // GREEN
-    vec3 color3 = vec3(125.0, 179.0, 132.0);
     // DARK_GREEN
     // vec3 color3 = vec3(89.0, 128.0, 94.0);
     // DARK_GREEN v2

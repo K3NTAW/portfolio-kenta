@@ -23,7 +23,7 @@
             >
         </p>
         <p class="loader__word">and Welcome.</p>
-        <p class="loader__word loader__word--logo serif">FI</p>
+        <p class="loader__word loader__word--logo serif">KW</p>
     </div>
 </template>
 
