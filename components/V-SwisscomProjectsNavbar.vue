@@ -103,16 +103,13 @@ export default {
         isMenuActive: false,
         isShowingCurrentSection: false,
         sections: [
-            { label: 'Home', scrollTo: 0 },
-            { label: 'About me', scrollTo: '.about' },
-            { label: 'Personal Projects', scrollTo: '.works' },
-            { label: 'Contact', scrollTo: '.contact' }
-            // Add more pages to route as needed
+            { label: 'Swisscom Projects', scrollTo: '.projects' },
+            { label: '', isSeparator: true }
         ],
         pages: [
             {
-                label: 'Swisscom Projects',
-                route: '/swisscomProjects'
+                label: 'Home',
+                route: '/'
             }
         ]
     }),

@@ -57,26 +57,30 @@ export default {
             prevAnimation: null,
             navigationalLinks: [
                 { label: 'Home', action: () => this.$scrollTo(0) },
-                { label: 'Works', action: () => this.$scrollTo('.works') },
-                { label: 'About', action: () => this.$scrollTo('.about') },
-                { label: 'Contact', action: () => this.$scrollTo('.contact') }
+                { label: 'Personal Projects', scrollTo: '.works' },
+                {
+                    label: 'Swisscom Projects',
+                    actions: () => this.$router.push('/swisscomProjects')
+                },
+                { label: 'About me', scrollTo: '.about' },
+                { label: 'Contact', scrollTo: '.contact' }
             ],
             socialLinks: [
                 {
-                    label: 'linktree',
-                    href: 'https://linktr.ee/fxrysh'
-                },
-                {
                     label: 'github',
-                    href: 'https://github.com/fxrysh'
+                    href: 'https://github.com/k3ntaw'
                 },
                 {
-                    label: 'twitter',
-                    href: 'https://twitter.com/fxrysh'
+                    label: 'github_EDU',
+                    href: 'https://github.com/orgs/kenta-bbw'
                 },
                 {
                     label: 'email',
-                    href: 'mailto:hello@farish.is-a.dev'
+                    href: 'mailto:kenta.waibel@gmail.com'
+                },
+                {
+                    label: 'CV ⬇ ',
+                    href: 'https://www.figma.com/proto/RwTeyKaoS9irw2XJ0kFOQg/Resume-(Community)?page-id=0%3A1&node-id=102-726&mode=design&t=PSfeenRQ0iKrhjEy-1'
                 }
             ]
         };

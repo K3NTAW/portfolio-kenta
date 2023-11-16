@@ -7,7 +7,7 @@
     >
         <V-H2 aria-label="project section heading">Swisscom Projects</V-H2>
         <ul class="projects__list" aria-label="projects list">
-            <V-Project-Item
+            <V-SwisscomProjects-Item
                 v-for="(project, key) in projects"
                 :key="key"
                 ref="projectsListItems"
@@ -21,11 +21,18 @@
 
 <script>
 export default {
-    data: () => ({ projects: [] }),
-    async fetch() {
-        this.projects = await this.$content('projects')
-            .sortBy('createdAt', 'desc')
-            .fetch();
+    data: () => ({
+        projects: []
+    }),
+    created() {
+        this.fetch(); // Call the fetch method when the component is created
+    },
+    methods: {
+        async fetch() {
+            this.projects = await this.$content('projects')
+                .sortBy('createdAt', 'desc')
+                .fetch();
+        }
     }
 };
 </script>

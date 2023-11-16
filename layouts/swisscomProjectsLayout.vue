@@ -4,13 +4,13 @@
             <Nuxt />
         </div>
         <V-Pointer />
-        <V-Loader />
+        <V-SwisscomProjectsLoader />
     </div>
 </template>
 
 <script>
 export default {
-    name: 'DefaultLayout',
+    name: 'SwisscomProjectsLayout',
     mounted() {
         this.setViewHeight();
         window.addEventListener('resize', this.setViewHeight);
